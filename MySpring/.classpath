@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="spring-aop-4.0.7.RELEASE.jar" sourcepath="D:/Software/Jars/spring-framework-4.0.7.RELEASE-dist/spring-framework-4.0.7.RELEASE/libs/spring-aop-4.0.7.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/D:/Software/Jars/spring-framework-4.0.7.RELEASE-dist/spring-framework-4.0.7.RELEASE/libs/spring-aop-4.0.7.RELEASE-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="spring-aspects-4.0.7.RELEASE.jar" sourcepath="D:/Software/Jars/spring-framework-4.0.7.RELEASE-dist/spring-framework-4.0.7.RELEASE/libs/spring-aspects-4.0.7.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/D:/Software/Jars/spring-framework-4.0.7.RELEASE-dist/spring-framework-4.0.7.RELEASE/libs/spring-aspects-4.0.7.RELEASE-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="spring-beans-4.0.7.RELEASE.jar" sourcepath="D:/Software/Jars/spring-framework-4.0.7.RELEASE-dist/spring-framework-4.0.7.RELEASE/libs/spring-beans-4.0.7.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/D:/Software/Jars/spring-framework-4.0.7.RELEASE-dist/spring-framework-4.0.7.RELEASE/libs/spring-beans-4.0.7.RELEASE-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="spring-context-4.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="spring-context-support-4.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="spring-core-4.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="spring-expression-4.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="spring-instrument-4.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="spring-instrument-tomcat-4.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="spring-jdbc-4.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="spring-jms-4.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="spring-messaging-4.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="spring-orm-4.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="spring-oxm-4.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="spring-test-4.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="spring-tx-4.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="spring-web-4.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="spring-webmvc-4.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="spring-webmvc-portlet-4.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="spring-websocket-4.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="commons-logging-1.2.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/D:/Software/Jars/commons-logging-1.2/commons-logging-1.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

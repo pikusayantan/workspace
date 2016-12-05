@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+    http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/context/spring-context-3.1.xsd">
+    
+    <context:component-scan base-package="com.india.sayantan" />
+
+	<bean id="triangle" class="com.india.sayantan.model.Triangle">
+		<!-- for calling setter method and set value -->
+		<!-- <property name="type1" value="Hello World!"/> -->
+
+		<!-- //for calling constructor -->
+		<constructor-arg value="10" />
+		<constructor-arg value="triangle" type="String" index="0" />
+	</bean>
+	
+
+	<bean id="length" class="com.india.sayantan.model.Points">
+		<property name="pointA" value="10" />
+		<property name="pointB" value="20" />
+	</bean>
+	<bean id="length2" class="com.india.sayantan.model.Points">
+		<property name="pointA" value="100" />
+		<property name="pointB" value="200" />
+	</bean>
+	<bean id="point1" class="com.india.sayantan.model.Points">
+		<property name="pointA" value="50" />
+		<property name="pointB" value="2300" />
+	</bean>
+	
+	<!-- <bean id="area" class="com.india.sayantan.util.Area">
+		<property name="point" ref="length"></property>
+	</bean> -->
+
+	
+</beans>
